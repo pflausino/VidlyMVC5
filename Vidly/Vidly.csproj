@@ -188,9 +188,86 @@
     <Compile Include="Migrations\201802041304226_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201802041304226_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802041419400_UpdateNameInMembershipType.cs" />
+    <Compile Include="Migrations\201802041419400_UpdateNameInMembershipType.Designer.cs">
+      <DependentUpon>201802041419400_UpdateNameInMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802041420119_UpdateRecordswhitNameMembershipType.cs" />
+    <Compile Include="Migrations\201802041420119_UpdateRecordswhitNameMembershipType.Designer.cs">
+      <DependentUpon>201802041420119_UpdateRecordswhitNameMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802041435515_UpdateRecordswhitNameMembershipTypeCorrection.cs" />
+    <Compile Include="Migrations\201802041435515_UpdateRecordswhitNameMembershipTypeCorrection.Designer.cs">
+      <DependentUpon>201802041435515_UpdateRecordswhitNameMembershipTypeCorrection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802041513528_AddBirthdayDateOnCustomer.cs" />
+    <Compile Include="Migrations\201802041513528_AddBirthdayDateOnCustomer.Designer.cs">
+      <DependentUpon>201802041513528_AddBirthdayDateOnCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802041544527_AddBirthdayDateOnCustomerDateTipe.cs" />
+    <Compile Include="Migrations\201802041544527_AddBirthdayDateOnCustomerDateTipe.Designer.cs">
+      <DependentUpon>201802041544527_AddBirthdayDateOnCustomerDateTipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802041549340_AddBirthdayDateOnCustomerDateTipe1.cs" />
+    <Compile Include="Migrations\201802041549340_AddBirthdayDateOnCustomerDateTipe1.Designer.cs">
+      <DependentUpon>201802041549340_AddBirthdayDateOnCustomerDateTipe1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802041550259_AddBirthdayDateOnCustomerDateTipe2.cs" />
+    <Compile Include="Migrations\201802041550259_AddBirthdayDateOnCustomerDateTipe2.Designer.cs">
+      <DependentUpon>201802041550259_AddBirthdayDateOnCustomerDateTipe2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802041551248_AddBirthdayDateOnCustomerDateTipe3.cs" />
+    <Compile Include="Migrations\201802041551248_AddBirthdayDateOnCustomerDateTipe3.Designer.cs">
+      <DependentUpon>201802041551248_AddBirthdayDateOnCustomerDateTipe3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802041601169_AddBirthdayDateOnCustomerDateTipe4.cs" />
+    <Compile Include="Migrations\201802041601169_AddBirthdayDateOnCustomerDateTipe4.Designer.cs">
+      <DependentUpon>201802041601169_AddBirthdayDateOnCustomerDateTipe4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802041916088_MoviesNewTableComponents.cs" />
+    <Compile Include="Migrations\201802041916088_MoviesNewTableComponents.Designer.cs">
+      <DependentUpon>201802041916088_MoviesNewTableComponents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802042007124_GenreTableAndForengKeypart1.cs" />
+    <Compile Include="Migrations\201802042007124_GenreTableAndForengKeypart1.Designer.cs">
+      <DependentUpon>201802042007124_GenreTableAndForengKeypart1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802042012572_GenreTableAndForengKeypart2.cs" />
+    <Compile Include="Migrations\201802042012572_GenreTableAndForengKeypart2.Designer.cs">
+      <DependentUpon>201802042012572_GenreTableAndForengKeypart2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802042020508_GenreTableAndForengKeypart3.cs" />
+    <Compile Include="Migrations\201802042020508_GenreTableAndForengKeypart3.Designer.cs">
+      <DependentUpon>201802042020508_GenreTableAndForengKeypart3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802042030166_GenreTableAndForengKeypart31.cs" />
+    <Compile Include="Migrations\201802042030166_GenreTableAndForengKeypart31.Designer.cs">
+      <DependentUpon>201802042030166_GenreTableAndForengKeypart31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802042032519_GenreTableAndForengKeypart4.cs" />
+    <Compile Include="Migrations\201802042032519_GenreTableAndForengKeypart4.Designer.cs">
+      <DependentUpon>201802042032519_GenreTableAndForengKeypart4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802042033330_GenresPopulate-Force.cs" />
+    <Compile Include="Migrations\201802042033330_GenresPopulate-Force.Designer.cs">
+      <DependentUpon>201802042033330_GenresPopulate-Force.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802042036244_DataBaseFinal.cs" />
+    <Compile Include="Migrations\201802042036244_DataBaseFinal.Designer.cs">
+      <DependentUpon>201802042036244_DataBaseFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802042043568_DataBaseFinalpart2.cs" />
+    <Compile Include="Migrations\201802042043568_DataBaseFinalpart2.Designer.cs">
+      <DependentUpon>201802042043568_DataBaseFinalpart2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802042044316_DataBaseFinalpart3.cs" />
+    <Compile Include="Migrations\201802042044316_DataBaseFinalpart3.Designer.cs">
+      <DependentUpon>201802042044316_DataBaseFinalpart3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -284,6 +361,63 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802041304226_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201802041304226_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802041419400_UpdateNameInMembershipType.resx">
+      <DependentUpon>201802041419400_UpdateNameInMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802041420119_UpdateRecordswhitNameMembershipType.resx">
+      <DependentUpon>201802041420119_UpdateRecordswhitNameMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802041435515_UpdateRecordswhitNameMembershipTypeCorrection.resx">
+      <DependentUpon>201802041435515_UpdateRecordswhitNameMembershipTypeCorrection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802041513528_AddBirthdayDateOnCustomer.resx">
+      <DependentUpon>201802041513528_AddBirthdayDateOnCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802041544527_AddBirthdayDateOnCustomerDateTipe.resx">
+      <DependentUpon>201802041544527_AddBirthdayDateOnCustomerDateTipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802041549340_AddBirthdayDateOnCustomerDateTipe1.resx">
+      <DependentUpon>201802041549340_AddBirthdayDateOnCustomerDateTipe1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802041550259_AddBirthdayDateOnCustomerDateTipe2.resx">
+      <DependentUpon>201802041550259_AddBirthdayDateOnCustomerDateTipe2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802041551248_AddBirthdayDateOnCustomerDateTipe3.resx">
+      <DependentUpon>201802041551248_AddBirthdayDateOnCustomerDateTipe3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802041601169_AddBirthdayDateOnCustomerDateTipe4.resx">
+      <DependentUpon>201802041601169_AddBirthdayDateOnCustomerDateTipe4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802041916088_MoviesNewTableComponents.resx">
+      <DependentUpon>201802041916088_MoviesNewTableComponents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802042007124_GenreTableAndForengKeypart1.resx">
+      <DependentUpon>201802042007124_GenreTableAndForengKeypart1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802042012572_GenreTableAndForengKeypart2.resx">
+      <DependentUpon>201802042012572_GenreTableAndForengKeypart2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802042020508_GenreTableAndForengKeypart3.resx">
+      <DependentUpon>201802042020508_GenreTableAndForengKeypart3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802042030166_GenreTableAndForengKeypart31.resx">
+      <DependentUpon>201802042030166_GenreTableAndForengKeypart31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802042032519_GenreTableAndForengKeypart4.resx">
+      <DependentUpon>201802042032519_GenreTableAndForengKeypart4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802042033330_GenresPopulate-Force.resx">
+      <DependentUpon>201802042033330_GenresPopulate-Force.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802042036244_DataBaseFinal.resx">
+      <DependentUpon>201802042036244_DataBaseFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802042043568_DataBaseFinalpart2.resx">
+      <DependentUpon>201802042043568_DataBaseFinalpart2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802042044316_DataBaseFinalpart3.resx">
+      <DependentUpon>201802042044316_DataBaseFinalpart3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -20,7 +20,11 @@ namespace Vidly.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        //para que a model seja considerada pelo Entity FrameWork 
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+        public DbSet<Genre> Genres { get; set; }
+
 
         public ApplicationDbContext()
             : base("VidlyMVC", throwIfV1Schema: false)
