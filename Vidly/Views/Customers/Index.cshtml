@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Vidly.Models.Customer>
+﻿
+@model IEnumerable<Vidly.Models.Customer>
 @*
     Note: I've set the model for this view to IEnumerable<Customer>.
     This is a simple interface implemented by the list class. Since
@@ -9,14 +10,12 @@
     different data structure, as long as it is enumerable, our view code
     will remain unchanged.
 *@
-
 @{
     ViewBag.Title = "Customers";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <h2>Customers</h2>
-@if (!Model.Any())
+@if (Model.Equals(null))
 {
     <p>We don't have any customers yet.</p>
 }
