@@ -50,9 +50,12 @@ E:\Projetos\DotNet\Vidly\Vidly\bin\Microsoft.Owin.Security.OAuth.xml
 E:\Projetos\DotNet\Vidly\Vidly\bin\Microsoft.Owin.Security.Google.xml
 E:\Projetos\DotNet\Vidly\Vidly\bin\Microsoft.Owin.Security.Twitter.xml
 E:\Projetos\DotNet\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-E:\Projetos\DotNet\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
 E:\Projetos\DotNet\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 E:\Projetos\DotNet\Vidly\Vidly\obj\Debug\Vidly.dll
 E:\Projetos\DotNet\Vidly\Vidly\obj\Debug\Vidly.pdb
-E:\Projetos\DotNet\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+E:\Projetos\DotNet\Vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
+E:\Projetos\DotNet\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 E:\Projetos\DotNet\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.Cache
+E:\Projetos\DotNet\Vidly\Vidly\obj\Debug\Vidly.Migrations.teste.resources
+E:\Projetos\DotNet\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
+E:\Projetos\DotNet\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources

@@ -31,6 +31,10 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+      <Objects>
+      </Objects>
+    </PublishDatabaseSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -168,15 +172,28 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201802022056441_InitialModel.cs" />
-    <Compile Include="Migrations\201802022056441_InitialModel.Designer.cs">
-      <DependentUpon>201802022056441_InitialModel.cs</DependentUpon>
+    <Compile Include="Migrations\201802040052338_AddMembershipType.cs" />
+    <Compile Include="Migrations\201802040052338_AddMembershipType.Designer.cs">
+      <DependentUpon>201802040052338_AddMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802040118206_teste.cs" />
+    <Compile Include="Migrations\201802040118206_teste.Designer.cs">
+      <DependentUpon>201802040118206_teste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802041242497_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\201802041242497_PopulateMembershipTypes.Designer.cs">
+      <DependentUpon>201802041242497_PopulateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802041304226_ApplyAnnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\201802041304226_ApplyAnnotationsToCustomerName.Designer.cs">
+      <DependentUpon>201802041304226_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -256,8 +273,17 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201802022056441_InitialModel.resx">
-      <DependentUpon>201802022056441_InitialModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201802040052338_AddMembershipType.resx">
+      <DependentUpon>201802040052338_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802040118206_teste.resx">
+      <DependentUpon>201802040118206_teste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802041242497_PopulateMembershipTypes.resx">
+      <DependentUpon>201802041242497_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802041304226_ApplyAnnotationsToCustomerName.resx">
+      <DependentUpon>201802041304226_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
