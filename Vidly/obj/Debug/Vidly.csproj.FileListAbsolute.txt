@@ -120,3 +120,11 @@ D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\Microsoft.Owin.Security.OAuth.xml
 D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\Microsoft.Owin.Security.Google.xml
 D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\Microsoft.Owin.Security.Twitter.xml
 D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\System.Net.Http.Formatting.dll
+D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\System.Web.Http.dll
+D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\System.Web.Http.WebHost.dll
+D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\System.Net.Http.Formatting.xml
+D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\System.Web.Http.xml
+D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\System.Web.Http.WebHost.xml
+D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\AutoMapper.dll
+D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\AutoMapper.xml
