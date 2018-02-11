@@ -1,9 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
 using Vidly.Models;
 using Vidly.ViewModels;
 using System.Data.Entity;
+using System.Data.Entity.Validation;
 
 namespace Vidly.Controllers
 {
@@ -32,10 +34,63 @@ namespace Vidly.Controllers
             return View(movies);
         }
 
-        public ActionResult New ()
+        public ActionResult New()
         {
-            return View()
+            var genre = _context.Genres.ToList();
+            var viewModel = new MovieFormViewModel
+            {
+                Genres = genre
+            };
+
+            return View("MovieForm", viewModel);
         }
+        public ActionResult Edit(int Id)
+        {
+            var movie = _context.Movies.SingleOrDefault(c => c.Id == Id);
+
+            if (movie == null) return HttpNotFound();
+
+            var viewModel = new MovieFormViewModel()
+            {
+                Movie = movie,
+                Genres = _context.Genres.ToList()
+            };
+
+            return View("MovieForm", viewModel);
+        }
+
+        [HttpPost]
+        public ActionResult Save(Movie movie)
+        {
+            if (movie.Id == 0)
+            {
+                movie.AddDate = DateTime.Now;
+                _context.Movies.Add(movie);
+            }
+            else
+            {
+                var movieInDb = _context.Movies.Single(c => c.Id == movie.Id);
+
+                //Danger Implementation ->
+                //TryUpdateModel(customerInDb);
+
+                movieInDb.Name = movie.Name;
+                movieInDb.ReleaseDate = movie.ReleaseDate;
+                movieInDb.NumberInStock = movie.NumberInStock;
+                movieInDb.GenreId = movie.GenreId;
+
+                //Other Option
+                //Mapper.Map(customer, customerInDb);
+
+            }
+
+
+            _context.SaveChanges();
+
+
+            return RedirectToAction("Index", "Movies");
+        }
+
 
 
         public ActionResult Details(int Id)
