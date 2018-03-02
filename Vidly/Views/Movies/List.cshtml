@@ -47,7 +47,8 @@
                     }
                 ]
             });
-            $("#movies").on("click",".js-delete",
+            $("#movies").on("click",
+                ".js-delete",
                 function() {
                     var button = $(this);
                     bootbox.confirm("Are you want delete this movie?",
@@ -64,7 +65,7 @@
                             }
                         });
 
-                })
+                });
         });
 
         //Script para deleção via API

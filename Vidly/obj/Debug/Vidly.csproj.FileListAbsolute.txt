@@ -128,3 +128,5 @@ D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\System.Web.Http.xml
 D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\System.Web.Http.WebHost.xml
 D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\AutoMapper.dll
 D:\outros\VidlyMVC5\VidlyMVC5\Vidly\bin\AutoMapper.xml
+D:\outros\VidlyMVC5\VidlyMVC5\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+D:\outros\VidlyMVC5\VidlyMVC5\Vidly\obj\Debug\Vidly.Migrations.AddDrivingToApplicantionUser.resources
